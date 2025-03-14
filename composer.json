@@ -20,13 +20,13 @@
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
         "drupal/gin": "^4.0",
-        "drupal/gin_toolbar": "^2.0"
+        "drupal/gin_toolbar": "^2.0",
+        "drupal/workspaces_parallel": "dev-1.0.x",
+        "drupal/wse": "^2@alpha"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "config": {
         "allow-plugins": {
             "composer/installers": true,

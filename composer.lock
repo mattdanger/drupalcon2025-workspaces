@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae9be3aefd25bfea2618449389465558",
+    "content-hash": "c06141a7442f31e98d0ee3c00e1573a2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -946,6 +946,115 @@
                     "url": "https://paypal.me/saschaeggi"
                 }
             ]
+        },
+        {
+            "name": "drupal/workspaces_parallel",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/workspaces_parallel.git",
+                "reference": "4a2ceaac231a5cca4df0c5022b4af7aa66f6a595"
+            },
+            "require": {
+                "drupal/core": "^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.0-alpha1+7-dev",
+                    "datestamp": "1733250330",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "djdevin",
+                    "homepage": "https://www.drupal.org/user/701754"
+                }
+            ],
+            "description": "Support for parallel workspaces (content in multiple workspaces)",
+            "homepage": "https://www.drupal.org/project/workspaces_parallel",
+            "support": {
+                "source": "https://git.drupalcode.org/project/workspaces_parallel"
+            }
+        },
+        {
+            "name": "drupal/wse",
+            "version": "2.0.0-alpha9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/wse.git",
+                "reference": "2.0.0-alpha9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/wse-2.0.0-alpha9.zip",
+                "reference": "2.0.0-alpha9",
+                "shasum": "8601c29ef24bbc5df6224b3753fbd2fef76d36ab"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "require-dev": {
+                "drupal/depcalc": "*",
+                "drupal/diff": "*",
+                "drupal/group_content_menu": "*",
+                "drupal/s3fs": "*",
+                "drupal/trash": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha9",
+                    "datestamp": "1740571092",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "amateescu",
+                    "homepage": "https://www.drupal.org/user/729614"
+                },
+                {
+                    "name": "fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
+                    "name": "plach",
+                    "homepage": "https://www.drupal.org/user/183211"
+                },
+                {
+                    "name": "s_leu",
+                    "homepage": "https://www.drupal.org/user/1336864"
+                }
+            ],
+            "description": "Workspaces Extra.",
+            "homepage": "https://www.drupal.org/project/wse",
+            "support": {
+                "source": "https://git.drupalcode.org/project/wse"
+            }
         },
         {
             "name": "egulias/email-validator",
@@ -11983,8 +12092,11 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
-    "prefer-stable": true,
+    "stability-flags": {
+        "drupal/workspaces_parallel": 20,
+        "drupal/wse": 15
+    },
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
