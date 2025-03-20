@@ -22,7 +22,7 @@
         "drupal/gin": "^4.0",
         "drupal/gin_toolbar": "^2.0",
         "drupal/workspaces_parallel": "dev-1.0.x",
-        "drupal/wse": "^2@alpha"
+        "drupal/wse": "dev-2.0.x"
     },
     "conflict": {
         "drupal/drupal": "*"
