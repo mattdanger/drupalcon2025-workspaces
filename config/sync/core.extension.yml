@@ -57,6 +57,7 @@ module:
   wse: 0
   wse_menu: 0
   wse_preview: 0
+  wse_scheduler: 0
   content_translation: 10
   views: 10
   demo_umami: 1000
