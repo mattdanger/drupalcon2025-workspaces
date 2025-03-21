@@ -12,4 +12,4 @@ clone_on_publish: false
 safe_forms:
   - ''
 entity_workspace_status: {  }
-disable_sub_workspaces: false
+disable_sub_workspaces: true

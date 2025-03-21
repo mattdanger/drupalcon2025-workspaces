@@ -58,7 +58,6 @@ module:
   workspaces: 0
   workspaces_ui: 0
   wse: 0
-  wse_deploy: 0
   wse_diff: 0
   wse_menu: 0
   wse_preview: 0
