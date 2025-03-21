@@ -23,6 +23,7 @@
         "drupal/diff": "^1.8",
         "drupal/gin": "^4.0",
         "drupal/gin_toolbar": "^2.0",
+        "drupal/paragraphs": "^1.19",
         "drupal/workspaces_parallel": "dev-1.0.x",
         "drupal/wse": "dev-2.0.x"
     },
