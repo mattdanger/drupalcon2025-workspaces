@@ -2,7 +2,7 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: 8704840c-a3df-4451-8a64-d56201df53f2
-name: 'Drush Site-Install'
+name: 'Workspaces Demo'
 mail: admin@example.com
 slogan: ''
 page:

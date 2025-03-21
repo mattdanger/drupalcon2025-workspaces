@@ -16,6 +16,7 @@ module:
   datetime: 0
   dblog: 0
   demo_umami_content: 0
+  diff: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -58,6 +59,7 @@ module:
   workspaces_ui: 0
   wse: 0
   wse_deploy: 0
+  wse_diff: 0
   wse_menu: 0
   wse_preview: 0
   wse_scheduler: 0
