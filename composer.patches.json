@@ -1,0 +1,7 @@
+{
+    "patches": {
+      "drupal/wse": {
+        "Diff support":"https://git.drupalcode.org/project/wse/-/merge_requests/87.patch"
+      }
+    }
+}  

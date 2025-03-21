@@ -16,9 +16,11 @@
     ],
     "require": {
         "composer/installers": "^2.3",
+        "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/diff": "^1.8",
         "drupal/gin": "^4.0",
         "drupal/gin_toolbar": "^2.0",
         "drupal/workspaces_parallel": "dev-1.0.x",
@@ -30,6 +32,7 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
@@ -40,6 +43,10 @@
         "sort-packages": true
     },
     "extra": {
+        "patches-file": "composer.patches.json",
+        "patchLevel": {
+          "drupal/core": "-p2"
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

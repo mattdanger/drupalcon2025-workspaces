@@ -24,6 +24,8 @@ dependencies:
     - system
     - taxonomy
     - toolbar
+    - workspaces
+    - wse_preview
 _core:
   default_config_hash: sPKcdyD0c7VBKh6ETK8IjejBnGev7qhKbv3fh--V8kc
 id: editor
@@ -38,6 +40,7 @@ permissions:
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'administer shortcuts'
+  - 'administer workspaces'
   - 'cancel account'
   - 'change own username'
   - 'configure editable article node layout overrides'
@@ -64,6 +67,7 @@ permissions:
   - 'edit any recipe content'
   - 'edit terms in recipe_category'
   - 'edit terms in tags'
+  - 'manage workspace previews'
   - 'revert all revisions'
   - 'revert article revisions'
   - 'revert page revisions'
