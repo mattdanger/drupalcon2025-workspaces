@@ -26,6 +26,7 @@ dependencies:
     - toolbar
     - workspaces
     - wse_preview
+    - wse_scheduler
 _core:
   default_config_hash: sPKcdyD0c7VBKh6ETK8IjejBnGev7qhKbv3fh--V8kc
 id: editor
@@ -51,13 +52,16 @@ permissions:
   - 'create terms in recipe_category'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'create workspace'
   - 'delete all revisions'
   - 'delete any article content'
   - 'delete any file'
   - 'delete any page content'
   - 'delete any recipe content'
+  - 'delete any workspace'
   - 'delete article revisions'
   - 'delete content translations'
+  - 'delete own workspace'
   - 'delete page revisions'
   - 'delete recipe revisions'
   - 'delete terms in recipe_category'
@@ -65,6 +69,8 @@ permissions:
   - 'edit any article content'
   - 'edit any page content'
   - 'edit any recipe content'
+  - 'edit any workspace'
+  - 'edit own workspace'
   - 'edit terms in recipe_category'
   - 'edit terms in tags'
   - 'manage workspace previews'
@@ -72,6 +78,7 @@ permissions:
   - 'revert article revisions'
   - 'revert page revisions'
   - 'revert recipe revisions'
+  - 'schedule workspace releases'
   - 'translate any entity'
   - 'update content translations'
   - 'use editorial transition archive'
@@ -79,8 +86,10 @@ permissions:
   - 'use editorial transition publish'
   - 'view all revisions'
   - 'view any unpublished content'
+  - 'view any workspace'
   - 'view article revisions'
   - 'view latest version'
+  - 'view own workspace'
   - 'view page revisions'
   - 'view recipe revisions'
   - 'view the administration theme'
