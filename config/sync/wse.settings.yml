@@ -1,7 +1,7 @@
 _core:
   default_config_hash: kG_BDQzVaJOzsLDSHQI-PbmXnWjVmJVRddayR_YWHIo
 append_current_workspace_to_url: false
-simplified_toolbar_switcher: true
+simplified_toolbar_switcher: false
 recent_workspaces_max_age: 72
 switcher_max_options: 10
 save_published_revisions: published

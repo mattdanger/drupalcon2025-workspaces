@@ -11,5 +11,7 @@
 Clone this repo, `cd` into the directory and
 
 `ddev start`
+
 `ddev import-db --file=./database.sql.gz`
+
 `ddev drush uli` to get a login link
